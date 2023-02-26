@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Adivinanzas</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  
+  <style>
+      body {
+    background-color: #644a67;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+  }
+
+  h1 {
+    color: #ffffff;
+    text-align: center;
+  }
+
+  button {
+    background-color: #353333;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex: 1;
+    max-width: 250px;
+    width: 100%;
+    max-height: 60px;
+    font-weight: bold;
+  }
+  .botones{
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.3);
+  }
+
+  button:hover {
+    background-color: #a07293;
+  }
+
+  .config-button {
+    position: absolute;
+    bottom: 80px;
+    right: 500px;
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 2px #171717;
+  }
+
+  .logo {
+    width: 220px;
+    height: 200px;
+    margin-top: -60px;
+  }
+
+
+      
+  </style>
+</head>
+
+<body>
+  <img
+    src="https://raw.githubusercontent.com/DanielSeguro/FinalLogica/master/Captura%20de%20Pantalla%202023-02-21%20a%20la(s)%202.56.01%20p.m..png"
+    class="logo" alt="Logo">
+  <h1>Riddles</h1>
+  <button class="botones"  onclick="location.href='./figuras.html'">Shapes</button>
+  <button class="botones" onclick="location.href='./colores.html'">Colors</button>
+  <button class="botones" onclick="location.href='./animales.html'">Animals</button>
+  <button class="botones" onclick="location.href='./numeros.html'">Numbers</button>
+  <button class="config-button" onclick="location.href='./configuracion.html'"> <i class="fas fa-cog"></i></button>
+</body>
+
+</html>
