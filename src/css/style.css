@@ -56,7 +56,7 @@ body {
 
   .star-button {
     position: absolute;
-    top: 80px;
+    bottom: 80px;
     right: 500px;
     background-color: transparent;
     color: #000000;
