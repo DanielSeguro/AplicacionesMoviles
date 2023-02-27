@@ -13,7 +13,7 @@ function aumentarContador() {
   contadorElemento.textContent = contador;
   
  
-  window.location.href = "azul.html";
+  window.location.href = "circulo.html";
 }
 
 
