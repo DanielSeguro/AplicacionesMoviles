@@ -2,7 +2,7 @@
 <html>
 
 <head>
- <link rel="stylesheet" href="../css/colores.css">
+  <link rel="stylesheet" href="../css/colores.css">
   <title>Figuras</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 </head>
@@ -14,17 +14,19 @@
   <h2>¿Qué color es?</h2>
 <h1></h1>
   <img src="../img/azul.png" alt="Cuadrado" class="cuadrado">
-  <span id="contador">0</span>
+
+  <p>Estrellas: <span id="contador">0</span></p>
+
   <div class="respuestas">
-    <button onclick="location.href=''">Azul</button>
-		<button onclick="location.href='./verde.html'">Morado</button>
+		<button id = "miBoton" class="button">Azul</button>
+		<button onclick="location.href='./verde.html'" class="button">Amarillo</button>
 	</div>
     <div class="botones">
-      <button onclick="location.href='colores.html'"><i class="fas fa-arrow-left"></i></button>
+      <button onclick="location.href='../colores.html'"><i class="fas fa-arrow-left"></i></button>
       <button onclick="location.href='verde.html'"> <i class="fas fa-arrow-right"></i></button>
     </div>
     <button class="home-button" onclick="location.href='../index.html'"><i class="fas fa-home"></i></button>
- 
+    <script src="../js/azul.js"></script>
 </body>
 
 </html>
