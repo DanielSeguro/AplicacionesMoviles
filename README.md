@@ -8,5 +8,6 @@ Adivinanzas es una aplicación que busca ayudar a los niños entre los 2 y los 6
 
 La aplicación es de carácter educativo y se centra en áreas temáticas importantes como los números, las formas, los colores y los animales lo que permite a los niños tener una educación más completa, además de que es una herramienta útil para los padres y educadores que buscan una manera divertida y efectiva de enseñar a los niños.
 
+## **Wireframe digital**
 
-
+https://www.canva.com/design/DAFYm-B2IsI/4MvbEl-wZ4gp4x9_6LKQlQ/edit?utm_content=DAFYm-B2IsI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
