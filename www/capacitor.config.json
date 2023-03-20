@@ -1,0 +1,11 @@
+{
+  "appId": "co.edu.upb.adivinanzas",
+  "appName": "adivinanzas",
+  "bundledWebRuntime": false,
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}

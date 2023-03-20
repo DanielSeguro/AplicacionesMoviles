@@ -1,0 +1,6 @@
+{
+  "appId": "co.edu.upb.adivinanzas",
+  "appName": "adivinanzas",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}

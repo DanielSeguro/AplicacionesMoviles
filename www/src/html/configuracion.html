@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Configuraciones</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<style>
+    body {
+    background-color: #ceffae;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+  }
+
+  h1 {
+    color: #000000;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 2px #7fab64;
+  }
+  button {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex: 1;
+    max-width: 250px;
+    width: 100%;
+    max-height: 60px;
+    font-weight: bold;
+  }
+  .botones{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  }
+
+  button:hover {
+    background-color: #98de8a;
+    
+  }
+  .logo {
+    width: 220px;
+    height: 200px;
+    margin-top: -60px;
+  }
+  .home-button {
+    position: absolute;
+    top: 80px;
+    left: 320px;
+    background-color: transparent;
+    color: #000000;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .terms-button {
+    background-color: #ceffae;
+    color: #000000;
+    border: none;
+    position:absolute;
+    top: 700px;
+    padding: 10px;
+    font-size: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex: 1;
+    max-width: 250px;
+    width: 100%;
+    max-height: 60px;
+
+  }
+
+</style>  
+</head>
+
+<body>
+  <img
+    src="../img/logo.png"
+    class="logo" alt="Logo">
+  <h1>Configuraciones</h1>
+  <button class="botones"  onclick="location.href='./idioma.html'">Idioma</button>
+  <button class="botones" onclick="location.href='./tematica.html'">Temática</button>
+  <button class="home-button" onclick="location.href='../index.html'"> <i class="fas fa-home"></i></button>
+  <button class="terms-button" onclick="location.href='./terminos.html'">Términos y Condiciones</button>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">adivinanzas</string>
+    <string name="title_activity_main">adivinanzas</string>
+    <string name="package_name">co.edu.upb.adivinanzas</string>
+    <string name="custom_url_scheme">co.edu.upb.adivinanzas</string>
+</resources>
