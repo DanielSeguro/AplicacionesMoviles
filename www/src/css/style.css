@@ -53,6 +53,11 @@ body {
     transition: background-color 0.3s ease;
   }
 
+  img {
+    width: 20px;
+    height: 20px;
+  }
+
   .star-button {
     position: absolute;
     top: 80px;
